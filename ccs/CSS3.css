@@ -1,0 +1,109 @@
+ 
+  *{box-sizing: border-box;
+    margin:0%;
+padding: 0%;} 
+header{size: 50;}
+body{background-image:url("./Images/dc.jpg"); 
+  background-color: aquamarine;} 
+div.container{
+            border: 10px solid indigo; 
+            height:  60px;
+
+            background-image:url("./Images/dc.jpg");
+        } 
+        li{display:inline-block ;
+        width: 150px;
+      border: 2px solid seashell ;}
+     
+        aside{display: flex;
+justify-content: space-between;}
+div.middle{margin: 0;} 
+.hero{display: flex;
+justify-content: space-between;
+} 
+ul{justify-content: space-between;
+display:inline-block;}
+
+  .right img {display: block; 
+float: left ;} 
+  .left img {display:block;}
+  aside{overflow:hidden;
+    display:inline-block;
+    border: 5px dotted rgb(63, 0, 253); 
+            width: 10;
+        height: 5; 
+        box-shadow: 50px 60px 77px #2536cedf;
+   } 
+  nav{background-color: blueviolet;} 
+  ul{text-align: center;} 
+  aside div img{width: 10;}
+aside left {width: 100;} 
+aside img{width: 10;} 
+div.hero img{overflow: hidden;
+  border: 5px dotted blue; width: 50;
+} 
+section{position: absolute;
+float: right;}
+article{position: absolute;
+  width: 450; 
+  top: 30%;
+  right: 70%;
+  background-color: red ; 
+  padding: 10;
+  border-radius: 10px;
+  box-shadow: 50px 60px 77px #2536cedf; } 
+
+  article1{position: absolute;
+    width: 450; 
+    top: 150%;
+    right: 25%;
+    background-color: red ; 
+    padding: 10;
+    border-radius: 10px;
+    box-shadow: 50px 60px 77px #2536cedf; } 
+
+    article2{position: absolute;
+      width: 450; 
+      top: 250%;
+      right: 30%;
+      background-color: red ; 
+      padding: 10;
+      border-radius: 10px;
+      box-shadow: 50px 60px 77px #2536cedf; } 
+      article3{position: absolute;
+        width: 450; 
+        top: 30%;
+        right: 30%;
+        background-color: red ; 
+        padding: 10;
+        border-radius: 10px;
+        box-shadow: 50px 60px 77px #2536cedf; } 
+a{color: aquamarine;
+text-decoration: none;
+border: 1px solid rgb(0, 58, 128);
+display: block;} 
+h1{text-align: center;}
+.container{background-image:url("./Images/dc.jpg");} 
+li a {
+  text-decoration: none;
+  color: #ccc;
+  font: 25px/1 Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+ 
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+ 
+li a:hover {
+  color: #000;
+  
+}
+ 
+li.active a {
+  font-weight: bold;
+  color: #333;
+}
+  
